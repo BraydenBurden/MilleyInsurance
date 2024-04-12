@@ -1,0 +1,49 @@
+.landing-page {
+    text-align: center;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #868585;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  .company-name {
+    margin: 0;
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+  }
+
+  .buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  .mission-statement {
+    padding: 50px;
+  }
+  
+  .mission-statement h2 {
+    margin-bottom: 20px;
+  }
+  
+  .mission-statement p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  

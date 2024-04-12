@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(224, 224, 224);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.profilePage {
+  border: 1px solid black;
+  margin: 0 35rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.carForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.carInputs input, .carInputs select {
+  width: 70%;
+}
+
+#carQuoteBtn {
+  margin-top: 2rem;
+  background-color: orange !important;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+#carQuoteBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.homeForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.homeInputs input, .homeInputs select {
+  width: 70%;
+}
+
+#homeQuoteBtn {
+  margin-top: 2rem;
+  background-color: orange !important;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+#homeQuoteBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.contactForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.contactInputs input, .contactInputs select {
+  width: 70%;
+}
+
+#contactSubmit {
+  margin-top: 2rem;
+  background-color: orange !important;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+#message {
+  min-height: 7.5rem;
+  max-height: 7.5rem;
+  width: 70%;
+}
+
+#contactSubmit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.numberStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 10rem;
+}
+
+.problems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
